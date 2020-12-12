@@ -1,4 +1,19 @@
 {
+  "order": {
+    "with_points": {
+      "amount": 500,
+      "use_points": 300,
+      "get_points": 200
+    },
+    "without_points": {
+      "amount": 500,
+      "get_points": 500
+    },
+    "store_name": "This is a store name",
+    "order_no": "4696541654",
+    "status": 1
+  },
+  "array": ["first reward", "second award"],
   "shops": [
     {
       "store_name": "Vendor 001",
@@ -17,7 +32,7 @@
       "tel": "7788988989"
     },
     {
-      "store_name": "Vendor 002 has a extremly long super duper name and it can not be shortened",
+      "store_name": "Vendor 3 has a extremly long super duper name and it can not be shortened",
       "storeid": "271274857",
       "distance": 15,
       "img": "https://www.seriouseats.com/recipes/images/2015/02/20141125-hot-pot-guide-shao-zhong-17.jpg",
@@ -25,7 +40,7 @@
       "tel": "7788988989"
     },
     {
-      "store_name": "Vendor 002 has a extremly long super duper name and it can not be shortened",
+      "store_name": "Vendor 4 has a extremly long super duper name and it can not be shortened",
       "storeid": "57568456",
       "distance": 15,
       "img": "https://www.seriouseats.com/recipes/images/2015/02/20141125-hot-pot-guide-shao-zhong-17.jpg",
@@ -33,7 +48,7 @@
       "tel": "7788988989"
     },
     {
-      "store_name": "Vendor 002 has a extremly long super duper name and it can not be shortened",
+      "store_name": "Vendor 5 has a extremly long super duper name and it can not be shortened",
       "storeid": "975634",
       "distance": 15,
       "img": "https://www.seriouseats.com/recipes/images/2015/02/20141125-hot-pot-guide-shao-zhong-17.jpg",
@@ -41,7 +56,7 @@
       "tel": "7788988989"
     },
     {
-      "store_name": "Vendor 002 has a extremly long super duper name and it can not be shortened",
+      "store_name": "Vendor 6 has a extremly long super duper name and it can not be shortened",
       "storeid": "354567",
       "distance": 15,
       "img": "https://www.seriouseats.com/recipes/images/2015/02/20141125-hot-pot-guide-shao-zhong-17.jpg",
@@ -49,7 +64,7 @@
       "tel": "7788988989"
     },
     {
-      "store_name": "Vendor 002 has a extremly long super duper name and it can not be shortened",
+      "store_name": "Vendor 7 has a extremly long super duper name and it can not be shortened",
       "storeid": "2348756",
       "distance": 15,
       "img": "https://www.seriouseats.com/recipes/images/2015/02/20141125-hot-pot-guide-shao-zhong-17.jpg",
