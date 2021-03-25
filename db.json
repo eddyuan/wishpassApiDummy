@@ -1,60 +1,58 @@
 {
-  "get_products": {
-    "data": [
-      {
-        "id": 0,
-        "status": 1,
-        "name": "Walmart Gift Card",
-        "images": "https://content.blackhawknetwork.com/gcmimages/product/xlarge/1002314.png",
-        "prices": {
-          "enable_custom": false,
-          "min": 500,
-          "max": 20000,
-          "discount": 10,
-          "values": [1000, 2000, 5000, 10000, 20000]
-        },
-        "inventory": -1,
-        "categories": ["apps-online-order-gaming"],
-        "descriptions": {
-          "brief": "Here's a brif description of the item",
-          "detaile": [
-            {
-              "title": "Description",
-              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ornare, mi in ornare elementum, libero nibh lacinia urna, quis convallis lorem erat at purus. Maecenas eu varius nisi"
-            },
-            { "title": "Terms & Condition", "text": "Here you go" },
-            { "title": "Redeem online", "text": "omg" }
-          ]
-        },
-        "attributes": [{ "slug": "availiability", "values": "National" }]
+  "get_products": [
+    {
+      "id": 0,
+      "status": 1,
+      "name": "Walmart Gift Card",
+      "images": "https://content.blackhawknetwork.com/gcmimages/product/xlarge/1002314.png",
+      "prices": {
+        "enable_custom": false,
+        "min": 500,
+        "max": 20000,
+        "discount": 10,
+        "values": [1000, 2000, 5000, 10000, 20000]
       },
-      {
-        "id": 0,
-        "status": 1,
-        "name": "Walmart Gift Card",
-        "images": "https://content.blackhawknetwork.com/gcmimages/product/xlarge/1002314.png",
-        "prices": {
-          "enable_custom": false,
-          "min": 500,
-          "max": 20000,
-          "discount": 10,
-          "values": [1000, 2000, 5000, 10000, 20000]
-        },
-        "inventory": -1,
-        "categories": ["apps-online-order-gaming"],
-        "descriptions": {
-          "brief": "Here's a brif description of the item",
-          "detaile": [
-            {
-              "title": "Description",
-              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ornare, mi in ornare elementum, libero nibh lacinia urna, quis convallis lorem erat at purus. Maecenas eu varius nisi"
-            },
-            { "title": "Terms & Condition", "text": "Here you go" },
-            { "title": "Redeem online", "text": "omg" }
-          ]
-        },
-        "attributes": [{ "slug": "availiability", "values": "National" }]
-      }
-    ]
-  }
+      "inventory": -1,
+      "categories": ["apps-online-order-gaming"],
+      "descriptions": {
+        "brief": "Here's a brif description of the item",
+        "detaile": [
+          {
+            "title": "Description",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ornare, mi in ornare elementum, libero nibh lacinia urna, quis convallis lorem erat at purus. Maecenas eu varius nisi"
+          },
+          { "title": "Terms & Condition", "text": "Here you go" },
+          { "title": "Redeem online", "text": "omg" }
+        ]
+      },
+      "attributes": [{ "slug": "availiability", "values": "National" }]
+    },
+    {
+      "id": 0,
+      "status": 1,
+      "name": "Walmart Gift Card",
+      "images": "https://content.blackhawknetwork.com/gcmimages/product/xlarge/1002314.png",
+      "prices": {
+        "enable_custom": false,
+        "min": 500,
+        "max": 20000,
+        "discount": 10,
+        "values": [1000, 2000, 5000, 10000, 20000]
+      },
+      "inventory": -1,
+      "categories": ["apps-online-order-gaming"],
+      "descriptions": {
+        "brief": "Here's a brif description of the item",
+        "detaile": [
+          {
+            "title": "Description",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ornare, mi in ornare elementum, libero nibh lacinia urna, quis convallis lorem erat at purus. Maecenas eu varius nisi"
+          },
+          { "title": "Terms & Condition", "text": "Here you go" },
+          { "title": "Redeem online", "text": "omg" }
+        ]
+      },
+      "attributes": [{ "slug": "availiability", "values": "National" }]
+    }
+  ]
 }
