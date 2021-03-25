@@ -1,288 +1,33 @@
 {
-  "get_code": {
-    "status": "success",
-    "result": []
-  },
-  "verify_code": {
-    "status": "success",
-    "msg": "",
-    "result": {
-      "user": {
-        "bonus": { "first_reward": true },
-        "cell": "7786887882",
-        "created_at": "2020-12-09 20:24:09",
-        "creditcard": [
-          {
-            "card_id": "00693654",
-            "card_number": "000000XXXXXXDEMV",
-            "card_type": "V",
-            "created_at": "2020-12-12 01:10:17",
-            "expiration_date": "1121",
-            "id": 129,
-            "updated_at": "2020-12-12 01:10:50",
-            "user_id": 2
-          },
-          {
-            "card_id": "00693654",
-            "card_number": "000000XXXXXXDEMM",
-            "card_type": "M",
-            "created_at": "2020-12-12 01:10:17",
-            "expiration_date": "1121",
-            "id": 129,
-            "updated_at": "2020-12-12 01:10:50",
-            "user_id": 2
-          },
-          {
-            "card_id": "00693654",
-            "card_number": "000000XXXXXXDEMO",
-            "card_type": "O",
-            "created_at": "2020-12-12 01:10:17",
-            "expiration_date": "1121",
-            "id": 129,
-            "updated_at": "2020-12-12 01:10:50",
-            "user_id": 2
-          },
-          {
-            "card_id": "00693654",
-            "card_number": "000000XXXXXXDEMA",
-            "card_type": "A",
-            "created_at": "2020-12-12 01:10:17",
-            "expiration_date": "1121",
-            "id": 129,
-            "updated_at": "2020-12-12 01:10:50",
-            "user_id": 2
-          }
-        ],
-        "id": 2,
-        "name": "",
-        "points": 994,
+  "get_products": {
+    "data": [
+      {
+        "id": 0,
         "status": 1,
-        "token": "22222222-2222-2222-2222-222222222222",
-        "updated_at": "2020-12-16 19:21:25"
+        "name": "Walmart Gift Card",
+        "images": "https://content.blackhawknetwork.com/gcmimages/product/xlarge/1002314.png",
+        "prices": {
+          "enable_custom": false,
+          "min": 500,
+          "max": 20000,
+          "discount": 10,
+          "values": [1000, 2000, 5000, 10000, 20000]
+        },
+        "inventory": -1,
+        "categories": ["apps-online-order-gaming"],
+        "descriptions": {
+          "brief": "Here's a brif description of the item",
+          "detaile": [
+            {
+              "title": "Description",
+              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ornare, mi in ornare elementum, libero nibh lacinia urna, quis convallis lorem erat at purus. Maecenas eu varius nisi"
+            },
+            { "title": "Terms & Condition", "text": "Here you go" },
+            { "title": "Redeem online", "text": "omg" }
+          ]
+        },
+        "attributes": [{ "slug": "availiability", "values": "National" }]
       }
-    }
-  },
-  "user_info": {
-    "status": "success",
-    "msg": "",
-    "result": {
-      "user": {
-        "bonus": { "first_reward": true },
-        "cell": "7786887882",
-        "created_at": "2020-12-09 20:24:09",
-        "creditcard": [
-          {
-            "card_id": "00693654",
-            "card_number": "000000XXXXXXDEMV",
-            "card_type": "V",
-            "created_at": "2020-12-12 01:10:17",
-            "expiration_date": "1121",
-            "id": 129,
-            "updated_at": "2020-12-12 01:10:50",
-            "user_id": 2
-          },
-          {
-            "card_id": "00693654",
-            "card_number": "000000XXXXXXDEMM",
-            "card_type": "M",
-            "created_at": "2020-12-12 01:10:17",
-            "expiration_date": "1121",
-            "id": 129,
-            "updated_at": "2020-12-12 01:10:50",
-            "user_id": 2
-          },
-          {
-            "card_id": "00693654",
-            "card_number": "000000XXXXXXDEMO",
-            "card_type": "O",
-            "created_at": "2020-12-12 01:10:17",
-            "expiration_date": "1121",
-            "id": 129,
-            "updated_at": "2020-12-12 01:10:50",
-            "user_id": 2
-          },
-          {
-            "card_id": "00693654",
-            "card_number": "000000XXXXXXDEMA",
-            "card_type": "A",
-            "created_at": "2020-12-12 01:10:17",
-            "expiration_date": "1121",
-            "id": 129,
-            "updated_at": "2020-12-12 01:10:50",
-            "user_id": 2
-          }
-        ],
-        "id": 2,
-        "name": "",
-        "points": 994,
-        "status": 1,
-        "token": "22222222-2222-2222-2222-222222222222",
-        "updated_at": "2020-12-16 19:21:25"
-      }
-    }
-  },
-  "barcode": {
-    "status": "success",
-    "msg": "",
-    "result": {
-      "barcode": "682020121620120912"
-    }
-  },
-  "order": {
-    "status": "success",
-    "msg": "",
-    "result": {
-      "order": {
-        "amount_order": 1,
-        "amount_pay": 0,
-        "card_id": null,
-        "cell": "",
-        "content": null,
-        "created_at": "2020-12-16 20:27:09",
-        "id": 320,
-        "merchant_id": 10000576,
-        "merchant_pay_order_id": "WISH682020121620120912969198",
-        "merchant_username": "vancent",
-        "method": null,
-        "order_no": "682020121620120912",
-        "order_type": 1,
-        "original_order_id": "",
-        "paid_at": null,
-        "pay_order_id": "",
-        "points_balance": 0,
-        "points_earned": 0,
-        "points_multiple": 0,
-        "points_used": 0,
-        "price": 0,
-        "status": 1,
-        "store_name": "IOT & PAY TECHNOLOGIES INC.",
-        "tax": 0,
-        "tips": 0,
-        "updated_at": "2020-12-16 20:28:29",
-        "user_id": 2
-      }
-    },
-    "with_points": {
-      "amount_pay": 0,
-      "points_earned": 0,
-      "points_used": 1
-    },
-    "without_points": {
-      "amount_pay": 1,
-      "points_earned": 0,
-      "points_used": 0
-    }
-  },
-  "pay_order": {
-    "status": "success",
-    "msg": "",
-    "result": {
-      "amount_order": 1,
-      "amount_pay": 0,
-      "card_id": null,
-      "cell": "",
-      "content": null,
-      "created_at": "2020-12-16 20:27:09",
-      "id": 320,
-      "merchant_id": 10000576,
-      "merchant_pay_order_id": "WISH682020121620120912969198",
-      "merchant_username": "vancent",
-      "method": 4,
-      "order_no": "682020121620120912",
-      "order_type": 1,
-      "original_order_id": "",
-      "paid_at": 1608150610,
-      "pay_order_id": "",
-      "points_balance": 1092,
-      "points_earned": 0,
-      "points_multiple": 0,
-      "points_used": 1,
-      "price": 0,
-      "status": 2,
-      "store_name": "IOT & PAY TECHNOLOGIES INC.",
-      "tax": 0,
-      "tips": 0,
-      "updated_at": "2020-12-16 20:30:10",
-      "user_id": 2
-    }
-  },
-  "order_list": {
-    "status": "success",
-    "msg": "",
-    "result": {
-      "orders": {
-        "current_page": 1,
-        "first_page_url": "https://api.wishpass.com/api/v1/order_list?page=1",
-        "from": 1,
-        "last_page": 1,
-        "last_page_url": "https://api.wishpass.com/api/v1/order_list?page=1",
-        "next_page_url": null,
-        "path": "https://api.wishpass.com/api/v1/order_list",
-        "per_page": 50,
-        "prev_page_url": null,
-        "to": 2,
-        "total": 2,
-        "data": [
-          {
-            "amount_order": 0,
-            "amount_pay": 0,
-            "card_id": null,
-            "cell": "",
-            "content": null,
-            "created_at": "2020-12-12 00:38:09",
-            "id": 36,
-            "merchant_id": null,
-            "merchant_pay_order_id": null,
-            "merchant_username": null,
-            "method": 4,
-            "order_no": "first reward",
-            "order_type": 3,
-            "original_order_id": "",
-            "paid_at": null,
-            "pay_order_id": "",
-            "points_balance": 500,
-            "points_earned": 500,
-            "points_multiple": 0,
-            "points_used": 0,
-            "price": 0,
-            "status": 2,
-            "store_name": null,
-            "tax": 0,
-            "tips": 0,
-            "updated_at": "2020-12-12 00:38:09",
-            "user_id": 2
-          },
-          {
-            "amount_order": 0,
-            "amount_pay": 0,
-            "card_id": null,
-            "cell": "",
-            "content": null,
-            "created_at": "2020-12-12 00:55:48",
-            "id": 38,
-            "merchant_id": null,
-            "merchant_pay_order_id": null,
-            "merchant_username": null,
-            "method": 4,
-            "order_no": "first_reward",
-            "order_type": 3,
-            "original_order_id": "",
-            "paid_at": null,
-            "pay_order_id": "",
-            "points_balance": 1000,
-            "points_earned": 500,
-            "points_multiple": 0,
-            "points_used": 0,
-            "price": 0,
-            "status": 2,
-            "store_name": null,
-            "tax": 0,
-            "tips": 0,
-            "updated_at": "2020-12-12 00:55:48",
-            "user_id": 2
-          }
-        ]
-      }
-    }
+    ]
   }
 }
